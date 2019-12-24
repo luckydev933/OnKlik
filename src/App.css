@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.title-font{
+  font-family: 'Nanum Gothic', sans-serif;   
+}
+p{
+  font-family: 'Abel', sans-serif;
+}
+.luxy{
+  font-family: 'Abel', sans-serif !important;
+}
+.custom-link {
+ color: white;
+ text-decoration: none;
+ font-weight: strong;
+ padding: 10 px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.teamMate:after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.teamMate h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+  padding-top: 17px;
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.teamMate p {
+  margin: 0;
+  font-size: .8em;
 }
-
-.App-link {
-  color: #61dafb;
+.teamMate img {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mate-info {
+  display: inline-block;
+  vertical-align: top;
+}
+.panelbar-wrapper {
+  max-width: 300px;
+  margin: 0 auto;
 }
